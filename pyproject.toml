@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "denis-grachev-kurs4-oop"
+version = "0.1.0"
+description = ""
+authors = ["DenGrachev59 <2717087@mail.ru>"]
+readme = "README.md"
+packages = [{include = "denis_grachev_kurs4_oop"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
